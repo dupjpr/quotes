@@ -1,7 +1,11 @@
-import React from "react";
+import QuoteList from "./QuotesList";
 
-const Main = () => {
-  return <main>this is the main section</main>;
+const Main: React.FC = () => {
+  return (
+    <main>
+      <QuoteList />
+    </main>
+  );
 };
 
 export default Main;
