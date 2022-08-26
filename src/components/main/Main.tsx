@@ -1,4 +1,4 @@
-import QuoteList from "./QuotesList";
+import QuoteList from "./QuotesList/QuotesList";
 
 const Main: React.FC = () => {
   return (
