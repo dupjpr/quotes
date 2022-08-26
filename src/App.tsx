@@ -13,5 +13,3 @@ function App() {
 }
 
 export default App;
-
-// https://type.fit/api/quotes
