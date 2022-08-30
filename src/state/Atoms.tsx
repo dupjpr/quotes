@@ -8,7 +8,7 @@ export const DataAtom = atom(async () => {
 });
 
 export const ListAtom = atom((get) => {
-  let newList: any = "";
+  let newList: Array<{ [key: string]: string }> = [];
 
   for (let i = 0; i < 10; i++) {
     const id = Math.floor(Math.random() * 1000);
