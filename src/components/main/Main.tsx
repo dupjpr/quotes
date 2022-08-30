@@ -1,9 +1,9 @@
-import QuoteList from "./QuotesList/QuotesList";
+import Tabs from "../tabs/tabs";
 
 const Main: React.FC = () => {
   return (
     <main>
-      <QuoteList />
+      <Tabs />
     </main>
   );
 };

@@ -16,3 +16,5 @@ export const ListAtom = atom((get) => {
   }
   return newList;
 });
+
+export const flagTabsAtom = atom(true);
